@@ -1,0 +1,52 @@
+﻿     ____
+    / _  |   Frida 17.16.3 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 22101320G (id=b5bc1eeb)
+Attaching...
+[+] Hook Context.getSharedPreferences instalado
+[+] Hook EditorImpl.putString instalado
+[+] Hook EditorImpl.putInt instalado
+[+] Hook EditorImpl.putBoolean instalado
+[+] Todos los hooks instalados. Realiza login, preview, captura ahora.
+frida.exe : TypeError: not a function
+At line:4 char:5
++     & frida -U -n Gadget -l $script 2>&1 | Out-File -FilePath $out -E ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (TypeError: not a function:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    at <anonymous> (C:\Users\kevin\monografia\dast_lab\scripts\hook_sharedprefs.js:37)
+    at apply (native)
+    at <anonymous> (/frida/bridges/java.js:8)
+    at <anonymous> (/frida/bridges/java.js:8)
+TypeError: not a function
+    at <anonymous> (C:\Users\kevin\monografia\dast_lab\scripts\hook_sharedprefs.js:37)
+    at apply (native)
+    at <anonymous> (/frida/bridges/java.js:8)
+    at <anonymous> (/frida/bridges/java.js:8)
+TypeError: not a function
+    at <anonymous> (C:\Users\kevin\monografia\dast_lab\scripts\hook_sharedprefs.js:37)
+    at apply (native)
+    at <anonymous> (/frida/bridges/java.js:8)
+    at <anonymous> (/frida/bridges/java.js:8)
+TypeError: not a function
+    at <anonymous> (C:\Users\kevin\monografia\dast_lab\scripts\hook_sharedprefs.js:37)
+    at apply (native)
+    at <anonymous> (/frida/bridges/java.js:8)
+    at <anonymous> (/frida/bridges/java.js:8)
+TypeError: not a function
+    at <anonymous> (C:\Users\kevin\monografia\dast_lab\scripts\hook_sharedprefs.js:37)
+    at apply (native)
+    at <anonymous> (/frida/bridges/java.js:8)
+    at <anonymous> (/frida/bridges/java.js:8)
+[22101320G::Gadget ]-> Connection terminated
+
+Thank you for using Frida!

@@ -1,0 +1,31 @@
+﻿     ____
+    / _  |   Frida 17.16.3 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   Prefer a GUI? Luma is the official Frida app, with a live REPL,
+   . . . .   persistent sessions & collaboration. https://luma.frida.re/
+   . . . .
+   . . . .   Connected to 22101320G (id=b5bc1eeb)
+Attaching...
+[+] Hook Context.getSharedPreferences instalado
+[+] Hook EditorImpl.putString instalado
+[+] Hook EditorImpl.putInt instalado
+[+] Hook EditorImpl.putBoolean instalado
+[+] Hook EditorImpl.putLong instalado
+[+] Hook EditorImpl.putFloat instalado
+[+] Hook EditorImpl.commit instalado
+[+] Hook EditorImpl.apply instalado (FIXED: void return)
+[+] Todos los hooks instalados. Realiza login, preview, captura.
+[22101320G::Gadget ]-> [putString] key='app_exit_data' value='{"$screen_name":"com.jwkj.impl_monitor.ui.activity.MainMonitorPortraitActivity",...'
+[apply] guardado async
+[putString] key='app_exit_data' value='{"$screen_name":"com.jwkj.impl_monitor.ui.activity.MainMonitorPortraitActivity",...'
+[apply] guardado async
+[putString] key='app_exit_data' value='{"$screen_name":"com.jwkj.impl_monitor.ui.activity.MainMonitorPortraitActivity",...'
+[apply] guardado async
+Connection terminated
+
+Thank you for using Frida!

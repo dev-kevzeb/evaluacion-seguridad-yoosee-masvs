@@ -1,0 +1,120 @@
+# =============================================================================
+# .gitignore para yoosee-audit-dast-lab
+# =============================================================================
+# Estructura de exclusiones:
+#   - APKs originales y parcheados (se reconstruyen con scripts; no van al repo)
+#   - Binarios de herramientas externas descargables
+#   - Archivos con PII real (deben anonimizarse antes de commitear)
+#   - Archivos de output grandes
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# APKs originales y derivados (se reconstruyen con los scripts del repo)
+# -----------------------------------------------------------------------------
+*.apk
+*.apk.idsig
+*.ab
+*.dex
+merge_src/
+originales/
+splits/
+patched/
+out/yoosee_*.apk
+out/yoosee_*.apk.idsig
+out/yoosee_backup.ab
+out/yoosee_*aligned.apk
+out/yoosee_*merged.apk
+out/yoosee_*fixed.apk
+out/yoosee_*signed.apk
+out/yoosee_*config.apk
+out/yoosee_*objection.apk
+
+# Capturas de logcat y volcados grandes (anonimizar antes de commitear si se comparten)
+out/yoosee_logcat_capture.txt
+out/hookv3_DAST.txt
+out/sharedprefs_full.txt
+out/cap4.txt
+
+# -----------------------------------------------------------------------------
+# Herramientas externas (se descargan por separado, no van al repo)
+# -----------------------------------------------------------------------------
+tools/*.jar
+tools/*.bat
+tools/*.cmd
+tools/*.sh
+tools/*.so
+tools/*.so.xz
+tools/*.pem
+tools/*.der
+tools/*.keystore
+tools/libfrida-gadget*
+tools/frida-gadget*
+tools/burpca*
+tools/apktool*
+tools/APKEditor*
+
+# -----------------------------------------------------------------------------
+# Outputs específicos anonimizados (se commitean; los grandes no)
+# -----------------------------------------------------------------------------
+# Mantener: out/install_log.txt, out/sharedprefs_DAST.txt
+# (anonimizados manualmente, tamaño < 100 KB)
+
+# -----------------------------------------------------------------------------
+# Archivos de sistema operativo
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# -----------------------------------------------------------------------------
+# IDE y editores
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------------------------------------------------------
+# Logs temporales
+# -----------------------------------------------------------------------------
+*.log
+nohup.out
+*.pid
+*.seed
+*.pid.lock
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+.env
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# -----------------------------------------------------------------------------
+# Outputs de compilación de los snippets de implementations/
+# -----------------------------------------------------------------------------
+implementations/**/build/
+implementations/**/.gradle/
+implementations/**/*.class
+implementations/**/*.jar
+implementations/**/local.properties
+
+# -----------------------------------------------------------------------------
+# Archivos temporales de Frida
+# -----------------------------------------------------------------------------
+*.js.bytecode
+*.cache
+.frida/
