@@ -154,5 +154,5 @@ Zeballos Oquendo, W. K. (2026). Evaluación de seguridad de la aplicación
 móvil Yoosee para cámaras de videovigilancia marca Tomate mediante el 
 estándar OWASP MASVS: DAST Lab & Implementation. 
 Universidad Mayor de San Simón, Facultad de Ciencias y Tecnología. GitHub.
-https://github.com/DevKevZeb/evaluacion-seguridad-yoosee-masvs
+https://github.com/dev-kevzeb/evaluacion-seguridad-yoosee-masvs
 ```
