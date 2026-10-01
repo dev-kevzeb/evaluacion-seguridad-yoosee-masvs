@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work in academic research, please cite it as below."
+type: software
+title: "Evaluación de seguridad de la aplicación móvil Yoosee para cámaras de videovigilancia marca Tomate mediante el estándar OWASP MASVS: DAST Lab & Implementation"
+authors:
+  - family-names: "Zeballos Oquendo"
+    given-names: "Wally Kevin"
+    affiliation: "Universidad Mayor de San Simón, Facultad de Ciencias y Tecnología"
+license: MIT
+repository-code: "https://github.com/dev-kevzeb/evaluacion-seguridad-yoosee-masvs"
+keywords:
+  - mobile security
+  - OWASP MASVS
+  - OWASP MASTG
+  - Android
+  - DAST
+  - IoT

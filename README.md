@@ -14,6 +14,7 @@ Este repositorio contiene los **scripts de auditoría dinámica (DAST)** y el **
 evaluacion-seguridad-yoosee-masvs/
 ├── README.md                       ← este archivo
 ├── LICENSE                         ← MIT License
+├── CITATION.cff                    ← metadatos de citación
 ├── .gitignore                      ← exclusiones de binarios grandes
 │
 ├── scripts/                        ← Scripts DAST (Python + PowerShell + Frida)
@@ -148,6 +149,8 @@ Este repositorio se distribuye bajo **MIT License** — ver [LICENSE](LICENSE). 
 - **Institución:** Universidad Mayor de San Simón — Facultad de Ciencias y Tecnología
 
 ## Citación
+
+Usa el botón **"Cite this repository"** de GitHub (generado desde [CITATION.cff](CITATION.cff)) para obtener la cita en APA o BibTeX, o copia la siguiente:
 
 ```
 Zeballos Oquendo, W. K. (2026). Evaluación de seguridad de la aplicación 

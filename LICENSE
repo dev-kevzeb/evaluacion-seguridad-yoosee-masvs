@@ -19,32 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-## Citation
-
-If you use this work in academic research, please cite:
-
-Zeballos Oquendo, W. K. (2026). Evaluación de seguridad de la aplicación 
-móvil Yoosee para cámaras de videovigilancia marca Tomate mediante el 
-estándar OWASP MASVS: DAST Lab & Implementation. 
-Universidad Mayor de San Simón, Facultad de Ciencias y Tecnología. GitHub.
-https://github.com/dev-kevzeb/evaluacion-seguridad-yoosee-masvs
-
-## Authors
-
-- **Author:** Wally Kevin Zeballos Oquendo
-- **Tutor:** MSc. Ing. Efrain Fernando Luna Mamani — efrainf.luna@gmail.com
-- **Co-tutor:** MSc. Ing. Hugo Oropeza — efrain.luna@fcyt.umss.edu.bo
-- **Institution:** Universidad Mayor de San Simón (UMSS)
-- **Faculty:** Facultad de Ciencias y Tecnología
-
-## Acknowledgments
-
-- **OWASP Foundation** for MASVS 2.1.0 and MASTG 2.0.0 (the methodological foundation)
-- **FIRST.org** for CVSS 3.1 (the vulnerability scoring standard)
-- **Google** for Android Security Best Practices and Jetpack Security
-- **Frida Project** for the dynamic instrumentation framework
-- **PortSwigger** for Burp Suite Community Edition
-- **NIST** for SP 800-57 (cryptographic key management)
